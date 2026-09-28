@@ -53,7 +53,7 @@ I wanted to build the honest version. Only posture and skin, the things you can 
 ## How it fits together
 
 ```mermaid
-flowchart LR
+flowchart TB
   subgraph Phone["iPhone app"]
     UI["Screens (React Native)"]
     Pose["Posture: Apple Vision / MoveNet<br/>runs on the phone"]
