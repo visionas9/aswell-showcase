@@ -54,28 +54,20 @@ I wanted to build the honest version. Only posture and skin, the things you can 
 
 ```mermaid
 flowchart TB
-  subgraph Phone["iPhone app"]
-    UI["Screens (React Native)"]
-    Pose["Posture: Apple Vision / MoveNet<br/>runs on the phone"]
-    Store["Local data + photos<br/>(photos never leave the phone)"]
-  end
-
-  subgraph Supabase["Supabase (EU)"]
-    Face["face-vision function<br/>login check, limits, cost cap"]
-    DB[("Postgres<br/>row-level security")]
-    Mail["email functions"]
-    Hook["RevenueCat webhook"]
-  end
-
+  App["iPhone app<br/>React Native + Expo"]
+  Pose["Posture read on the phone<br/>Apple Vision / MoveNet<br/>photos never leave the device"]
+  Face["face-vision server function<br/>login check · limits · cost cap"]
   AI["Claude vision model"]
+  DB[("Supabase Postgres<br/>row-level security")]
   RC["RevenueCat"]
-  Resend["Resend"]
+  Hook["Webhook updates access"]
+  Mail["Email functions → Resend"]
 
-  UI --> Pose --> Store
-  UI -- "selfie" --> Face --> AI
-  UI <-- "sync" --> DB
-  UI --> RC --> Hook --> DB
-  Mail --> Resend
+  App --> Pose
+  App -- "selfie" --> Face --> AI
+  App <-- "sync" --> DB
+  App --> RC --> Hook --> DB
+  DB --> Mail
 ```
 
 ## Engineering decisions I'm proud of
