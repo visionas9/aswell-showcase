@@ -114,6 +114,7 @@ Payments, emails, legal pages, the landing page and the waitlist are live. The T
 ## Contact
 
 - Website: [aswell.app](https://aswell.app)
+- LinkedIn: [Alperen Sirli](https://www.linkedin.com/in/alperen-sirli/)
 - GitHub: [@visionas9](https://github.com/visionas9)
 
 ---
