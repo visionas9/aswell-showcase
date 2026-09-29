@@ -11,6 +11,8 @@
 
 ![Aswell](images/hero.png)
 
+**▶ [Watch the 2-minute demo](https://youtu.be/X9aKIC8NYsE)**: a full run from onboarding to the daily plan, recorded in the iOS Simulator.
+
 > **Why is the code private?** Aswell is a real product on its way to the App Store, so the full source stays private. This repo shows what I built, how it works, and a few parts of the code I'm proudest of. I'm happy to walk through the whole codebase in an interview.
 
 ---
@@ -114,6 +116,7 @@ Payments, emails, legal pages, the landing page and the waitlist are live. The T
 ## Contact
 
 - Website: [aswell.app](https://aswell.app)
+- Demo video: [youtu.be/X9aKIC8NYsE](https://youtu.be/X9aKIC8NYsE)
 - LinkedIn: [Alperen Sirli](https://www.linkedin.com/in/alperen-sirli/)
 - GitHub: [@visionas9](https://github.com/visionas9)
 
