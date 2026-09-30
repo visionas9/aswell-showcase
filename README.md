@@ -13,7 +13,7 @@
 
 **▶ [Watch the 2-minute demo](https://youtu.be/X9aKIC8NYsE)**: a full run from onboarding to the daily plan, recorded in the iOS Simulator.
 
-> **Why is the code private?** Aswell is a real product on its way to the App Store, so the full source stays private. This repo shows what I built, how it works, and a few parts of the code I'm proudest of. I'm happy to walk through the whole codebase in an interview.
+> **Why is the code private?** Aswell is a real product on its way to the App Store, so the full source stays private. This repo shows what I built, how it works, and a few parts of the code I'd show.
 
 ---
 
